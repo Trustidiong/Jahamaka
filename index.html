@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://use.fontawesome.com/af9c61415b.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>JJ's Home Page</title>
+</head>
+
+<body>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0"
+    nonce="s91UVeQf"></script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+<div class="container">
+    <nav class="navbar navbar-expand-lg bg-success fixed-top" id="navElements">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid" >
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="row" data-spy="scroll" data-target="#navElements" data-offset="0" id="Home">
+        <div class="col-md-12">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators" >
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://www.ei-ie.org/img/2713b.jpg?p=lead" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                           
+                            <h5>What the Covid-19 Pandemic will change.</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.qs.com/wp-content/uploads/2021/03/higher-education-in-Africa.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Rethinking education in Africa</h5>
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Special Education, Special Challenges</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+<div class="row"><div class="col-md-12"><p></p></div></div>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="https://scontent.fabb1-1.fna.fbcdn.net/v/t1.6435-0/c0.0.206.206a/p206x206/38975488_1982607305117309_8742535793639161856_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=da31f3&_nc_eui2=AeFKQvOTcqfnncAOiSkAzBfQdv0honjAqmR2_SGieMCqZHKsg9rqJpbbs12RhsHYC8k_B2rqVDIEKXG6eHpiVtvD&_nc_ohc=FBMia8fv3VsAX_XIAob&tn=bWZNB8_n8x_YTTvM&_nc_ht=scontent.fabb1-1.fna&tp=27&oh=c27ba4394e7664a06ac4a5addbfdb755&oe=60DF9577" class="rounded-circle img-fluid" alt="...">
+        </div>
+        <div class="col-md-6">
+            <div class="card" >
+                <div class="card-header" id="About">
+                    Quote on Learning...
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>As for the things in which we need to learn before we do them, we learn them by doing them</p>
+                        <footer class="blockquote-footer">Plato <cite title="Source Title">(428B.C.E - 348 B.C.E)</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+
+
+
+            <h4>About Jah-Amaka (JJ)</h4>
+            <p>
+                JJ is a strong ally to the deaf community and other stakeholders.
+                Since most institutions, programs and services do not recognize deaf people as having a distinct language and culture
+            which need protection and support, I hope to ensure effective communication and mitigate disability discrimination that
+            is occasioned by the language gap between deaf and hearing people during my PhD research in the University of Alberta.
+            I am convinced that you and I can make a better world.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p></p>
+        </div>
+    </div>
+    <div class="row bg-success text-white" >
+        <h2 id="Contact" class="text-center">I would like to hear from you</h2>
+        <div class="col-md-6 text-center">
+            
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15897.051157964252!2d7.921880851516783!3d5.061097360334012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1624918858875!5m2!1sen!2sng"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="col-md-6">
+            <H5>Fill the form below and I will contact you back I promise</H5>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="number" class="form-control" id="phone">
+                </div>
+                
+                <div class="form-outline">
+                    <label for="phone">Message</label>
+                    <textarea class="form-control" id="textAreaExample2" rows="8"></textarea>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p></p>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                <br/>
+                </div>
+            </form>
+            <div class="row">
+                <div class="col-md-12">
+                    <p></p>
+                </div>
+            </div>
+    </div>
+
+    <div class="bg-dark text-light d-flex justify-content-center">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p></p>
+                            </div>
+                        </div>
+        <nav class="navbar navbar-expand-lg">
+            
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            <div class="collapse navbar-collapse text-center">
+                <div class="navbar-nav text-center">
+                    
+                    <a class="nav-link" href="https://web.facebook.com/enwedo.chiamaka/" target="_blank"><i class="fa fa-3x fa-facebook-square" aria-hidden="true"></i></a>
+                    <a class="nav-link" href="mailto:sweetjj4real@gmail.com" target="_blank"><i class="fa fa-3x fa-envelope" aria-hidden="true"></i></a>
+                    <a class="nav-link" href="https://www.instagram.com/sweetjj4real/" target="_blank"><i class="fa fa-3x fa-instagram" aria-hidden="true"></i></a>
+                    <a class="nav-link" href="https://wa.me/2348065979807" target="_blank"><i class="fa fa-3x fa-whatsapp" aria-hidden="true"></i></i></a>
+                    <a class="nav-link" href="tel:2348065979807" target="_blank"><i class="fa fa-3x fa-phone-square" aria-hidden="true"></i></a>
+                    
+                </div>
+                
+        </nav>      
+            <p></p>
+    </div>
+<div class="bg-dark text-light text-center">
+                <p></p>
+            <p>Terms and Conditions</p>
+            <p>&copy; Copyright 2021</p>
+
+
+    
+</div>
+</body>
+<style>
+    .col-md-6 img {width:80%}
+    a:link, a:visited {
+    color: #FFF !important;
+    text-decoration: none;
+}
+</style>
+
+</html>
